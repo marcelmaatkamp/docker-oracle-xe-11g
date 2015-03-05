@@ -40,6 +40,8 @@ RUN echo 'export ORACLE_SID=XE' >> /etc/bash.bashrc
 # Remove installation files
 RUN rm /oracle-xe_11.2.0-1.0_amd64.deb*
 
+RUN rm -rf /var/tmp/.oracle
+
 EXPOSE 22
 EXPOSE 1521
 EXPOSE 8080
