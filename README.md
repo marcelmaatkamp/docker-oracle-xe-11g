@@ -7,12 +7,12 @@ This **Dockerfile** is a [trusted build](https://registry.hub.docker.com/u/wname
 
 ### Installation
 ```
-docker pull wnameless/oracle-xe-11g
+docker pull marcelmaatkamp/docker-oracle-xe-11g
 ```
 
 Run with 22 and 1521 ports opened:
 ```
-docker run -d -p 49160:22 -p 49161:1521 wnameless/oracle-xe-11g
+ddocker run -d --name oracle -p 49160:22 -p 49161:1521 marcelmaatkamp/docker-oracle-xe-11g
 ```
 
 Connect database with following setting:
