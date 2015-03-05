@@ -19,7 +19,7 @@ Connect database with following setting:
 ```
 hostname: localhost
 port: 49161
-sid: xe
+sid: XE
 username: system
 password: oracle
 ```
